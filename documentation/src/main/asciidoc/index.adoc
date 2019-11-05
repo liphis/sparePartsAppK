@@ -1,0 +1,17 @@
+:docinfo:
+= sparePartApp
+Documentation
+:nofooter:
+
+This document describes the sparePartApp app.
+
+include::subpage.adoc[]
+
+include::additionalpage.adoc[]
+
+== About
+
+sparePartApp +
+(C) Your Company
+
+https://your-website.com/
