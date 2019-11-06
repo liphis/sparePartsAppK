@@ -12,3 +12,18 @@
       4 de   |Seite 1
       4 pl   |Strona 1
       4 en-US|Page 1
+      5 de   |Artikel
+      5 pl   |Artykuł
+      5 en-US|Product
+      6 de   |Lieferant
+      6 pl   |Dostawca
+      6 en-US|Vendor
+      7 de   |Lieferantenartikelnummer
+      7 pl   |Nr artykułu dostawcy
+      7 en-US|Vendor product no.
+      8 de   |Verwendungsdatum
+      8 pl   |
+      8 en-US|
+      9 de   |Verwendungsgrund
+      9 pl   |
+      9 en-US|

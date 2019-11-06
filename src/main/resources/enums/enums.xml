@@ -22,7 +22,7 @@
                 <Field name="vaufzelem" abasType="VID88">(1161,109,0)</Field>
                 <Field name="aefix" abasType="B1">0</Field>
                 <Field name="aekfix" abasType="B1">0</Field>
-                <Field name="aebezfix" abasType="B1">0</Field>
+                <Field name="aebezfix" abasType="B1">1</Field>
                 <Field name="aeaktiv" abasType="B1">1</Field>
                 <Field name="aedefault" abasType="B1">0</Field>
                 <Field name="aebezeichner" abasType="GL40">Rueckruf</Field>
@@ -32,7 +32,7 @@
                 <Field name="vaufzelem" abasType="VID88">(1158,109,0)</Field>
                 <Field name="aefix" abasType="B1">0</Field>
                 <Field name="aekfix" abasType="B1">0</Field>
-                <Field name="aebezfix" abasType="B1">0</Field>
+                <Field name="aebezfix" abasType="B1">1</Field>
                 <Field name="aeaktiv" abasType="B1">1</Field>
                 <Field name="aedefault" abasType="B1">0</Field>
                 <Field name="aebezeichner" abasType="GL40">Verschleiss</Field>
@@ -42,7 +42,7 @@
                 <Field name="vaufzelem" abasType="VID88">(1159,109,0)</Field>
                 <Field name="aefix" abasType="B1">0</Field>
                 <Field name="aekfix" abasType="B1">0</Field>
-                <Field name="aebezfix" abasType="B1">0</Field>
+                <Field name="aebezfix" abasType="B1">1</Field>
                 <Field name="aeaktiv" abasType="B1">1</Field>
                 <Field name="aedefault" abasType="B1">0</Field>
                 <Field name="aebezeichner" abasType="GL40">Defekt</Field>
@@ -52,7 +52,7 @@
                 <Field name="vaufzelem" abasType="VID88">(1160,109,0)</Field>
                 <Field name="aefix" abasType="B1">0</Field>
                 <Field name="aekfix" abasType="B1">0</Field>
-                <Field name="aebezfix" abasType="B1">0</Field>
+                <Field name="aebezfix" abasType="B1">1</Field>
                 <Field name="aeaktiv" abasType="B1">1</Field>
                 <Field name="aedefault" abasType="B1">0</Field>
                 <Field name="aebezeichner" abasType="GL40">Tausch</Field>

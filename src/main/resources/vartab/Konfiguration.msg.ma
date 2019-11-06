@@ -12,3 +12,12 @@
       4 de   |Seite 1
       4 pl   |Strona 1
       4 en-US|Page 1
+      5 de   |Datenbankname für Kommandos
+      5 pl   |Nazwa bazy danych poleceń
+      5 en-US|Database name for commands
+      6 de   |Datenbankname
+      6 pl   |Nazwa bazy danych
+      6 en-US|Database name
+      7 de   |Datenbanknummer
+      7 pl   |Nr bazy danych
+      7 en-US|Database number

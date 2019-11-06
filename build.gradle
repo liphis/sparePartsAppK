@@ -17,6 +17,7 @@ esdk {
 		infosystems = ["IS.OWIS.SPUSAGE"]
 		tables = ["ErsatzteileApp"]
 		screens = [:]
+		advancedScreens = ["451":["A"], "70":["A"] ]
 		data = []
         enums = ["Verwendungsgrund"]
 		namedTypes = []
