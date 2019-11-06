@@ -15,9 +15,9 @@ esdk {
 		appId = "spart"
 		shared = false
 		infosystems = ["IS.OWIS.SPUSAGE"]
-		tables = ["ErsatzteileApp"]
+		tables = ["ErsatzteileApp", "Teil"]
 		screens = [:]
-		advancedScreens = ["451":["A"], "70":["A"] ]
+		advancedScreens = ["451":["A"], "70":["A"], "2":["D"] ]
 		data = []
         enums = ["Verwendungsgrund"]
 		namedTypes = []

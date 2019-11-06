@@ -7,17 +7,17 @@ services:
     erp:
       image: sdp.registry.abas.sh/abas/test:2018r4n14p13
       init: true
-      container_name: "erp"
+      container_name: "erp2018"
 
       ports:
-      - "${SSH_TEST_PORT:-2205}:22"
-      - "${MINI_GUI_PORT:-8001}:80"
-      - "${EDP_TEST_PORT:-6560}:6550"
-      - "${GUI_TEST_PORT:-48592}:48392"
+      - "${SSH_TEST_PORT:-2218}:22"
+   #   - "${MINI_GUI_PORT:-8001}:80"
+      - "${EDP_TEST_PORT:-6568}:6550"
+      - "${GUI_TEST_PORT:-48892}:48392"
 
       environment:
       - ABAS_HOST=${ABAS_HOST}
-      - ABAS_GUI_PORT=${GUI_TEST_PORT:-48592}
+      - ABAS_GUI_PORT=${GUI_TEST_PORT:-48892}
 
       # The hostname is very important, especially if you intend to use `docker commit`
       user: s3
@@ -25,8 +25,8 @@ services:
       command: ["sh", "-c", "cd /abas/erp && eval $$(sh denv.sh) && datmeta -s && /data/starteVersion.sh run" ]
 
     # nexus for publishing abas Essentials libraries
-    nexus:
-      image: sonatype/nexus:oss
-      container_name: "nexus"
-      ports:
-      - "8081:8081"
+#    nexus:
+#      image: sonatype/nexus:oss
+#      container_name: "nexus"
+#      ports:
+#      - "8081:8081"
