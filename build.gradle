@@ -18,7 +18,7 @@ esdk {
 		tables = []
 		screens = [:]
 		data = []
-		enums = []
+		enums = ["Verwendungsgrund"]
 		namedTypes = []
 		languages = "DAP"
 		essentialsVersions = [ "2018r4n00-2018r4n17" ]
