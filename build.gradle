@@ -49,6 +49,7 @@ esdk {
 		user = SSH_USER
 		password = SSH_PASSWORD
 		key = SSH_KEY
+		timeout = 50000
 	}
 	installType = "SSH"
 }
