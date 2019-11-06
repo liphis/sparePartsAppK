@@ -16,43 +16,6 @@ database master Teil {
 		table {
 		}
 	}
-	structure Fertigungsmittel {
-		groupNumber 2
-		head {
-		}
-	}
-	structure Zusatzposition {
-		groupNumber 4
-		head {
-		}
-	}
-	structure Dienstleistung {
-		groupNumber 5
-		head {
-			field BU3 skip erzatzteil {
-				label ""
-				heading ""
-				description "Erzatzteil anlegen"
-				screen VIEW_EDITABLE
-				showPriority A
-				changePriority A
-			}
-		}
-		table {
-		}
-	}
-	structure Kundenartikeleigenschaft {
-		groupNumber 6
-		head {
-		}
-	}
-	structure Kundenartikeleigenschaften {
-		groupNumber 7
-		head {
-		}
-		table {
-		}
-	}
 	structure "Zugänge/Abgänge" {
 		groupNumber 8
 		head {
