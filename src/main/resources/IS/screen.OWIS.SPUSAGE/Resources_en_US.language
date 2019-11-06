@@ -1,0 +1,17 @@
+language.source=en-US
+spusage_owis$0=Bitte Bezeichnung eintragen
+spusage_owis$1=Page 1
+spusage_owis$2=Page 1
+spusage_owis_fhead_yspartartikel=Product
+spusage_owis_fhead_yspartersatz=Spare part
+spusage_owis_fhead_yspartletztverwbis=Letzte Verwendung bis
+spusage_owis_fhead_yspartletztverwvon=Letzte Verwendung von
+spusage_owis_fhead_yspartverwgrund=Verwendungsgrund
+spusage_owis_ftable_ysparttartikel=Product
+spusage_owis_ftable_yspartterfverw=Verwendung erfassen
+spusage_owis_ftable_ysparttersatz=Spare part
+spusage_owis_ftable_ysparttgrundneu=Grund der Verwendung
+spusage_owis_ftable_ysparttletztverw=Letzte Verwendung am
+spusage_owis_ftable_ysparttletztverwgr=Letzter Verwendungsgrund
+spusage_owis_ftable_ysparttname=Name
+spusage_owis_ftable_ysparttverwneu=Neue Verwendung am

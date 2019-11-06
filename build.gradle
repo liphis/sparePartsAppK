@@ -14,7 +14,7 @@ esdk {
 		vendorId = "ae"
 		appId = "spart"
 		shared = false
-		infosystems = []
+		infosystems = ["IS.OWIS.SPUSAGE"]
 		tables = ["ErsatzteileApp"]
 		screens = [:]
 		data = []
@@ -49,6 +49,7 @@ esdk {
 		user = SSH_USER
 		password = SSH_PASSWORD
 		key = SSH_KEY
+        timeout = 32000
 	}
 	installType = "SSH"
 }

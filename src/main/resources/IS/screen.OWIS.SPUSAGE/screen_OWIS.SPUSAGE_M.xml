@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE frame SYSTEM "urn:x-abas.de:abasscreens-1.00.dtd">
+
+<frame frameType="M" msgId="spusage_owis$0" stdHelp="25B.1" customHelp="">
+ <layout.grid>
+  <metainfo axis="row" grid="0" stretch="zoom" />
+  <metainfo axis="column" grid="0" stretch="zoom" />
+  <cell alignX="fill" alignY="fill" gridX="0" gridY="0">
+   <layout.split axis="row">
+    <pane.split>
+     <layout.notebook>
+      <pane.notebook msgId="spusage_owis$1">
+       <layout.grid>
+        <metainfo axis="column" grid="2" indent="large" />
+        <cell alignY="beginning" gridX="0" gridY="0">
+         <label msgId="spusage_owis_fhead_yspartersatz" />
+        </cell>
+        <cell alignY="beginning" gridX="1" gridY="0">
+         <erpfield s3Name="0:yspartersatz" />
+        </cell>
+        <cell alignY="beginning" gridX="2" gridY="0">
+         <label msgId="spusage_owis_fhead_yspartartikel" />
+        </cell>
+        <cell alignY="beginning" gridX="3" gridY="0">
+         <erpfield s3Name="0:yspartartikel" />
+        </cell>
+        <cell alignY="beginning" gridX="0" gridY="1">
+         <label msgId="spusage_owis_fhead_yspartletztverwvon" />
+        </cell>
+        <cell alignY="beginning" gridX="1" gridY="1">
+         <erpfield s3Name="0:yspartletztverwvon" />
+        </cell>
+        <cell alignY="beginning" gridX="2" gridY="1">
+         <label msgId="spusage_owis_fhead_yspartletztverwbis" />
+        </cell>
+        <cell alignY="beginning" gridX="3" gridY="1">
+         <erpfield s3Name="0:yspartletztverwbis" />
+        </cell>
+        <cell alignY="beginning" gridX="0" gridY="2">
+         <label msgId="spusage_owis_fhead_yspartverwgrund" />
+        </cell>
+        <cell alignY="beginning" gridX="1" gridY="2">
+         <erpfield s3Name="0:yspartverwgrund" />
+        </cell>
+        <cell alignY="beginning" gridX="2" gridY="2" />
+        <cell alignY="beginning" gridX="3" gridY="2" />
+        <cell alignY="beginning" gridX="0" gridY="3" />
+        <cell alignY="beginning" gridX="1" gridY="3" />
+        <cell alignY="beginning" gridX="2" gridY="3" />
+        <cell alignY="beginning" gridX="3" gridY="3" />
+        <cell alignY="beginning" gridX="0" gridY="4" />
+        <cell alignY="beginning" gridX="1" gridY="4" />
+        <cell alignY="beginning" gridX="2" gridY="4" />
+        <cell alignY="beginning" gridX="3" gridY="4" />
+        <cell alignY="beginning" gridX="0" gridY="5" />
+        <cell alignY="beginning" gridX="1" gridY="5" />
+        <cell alignY="beginning" gridX="2" gridY="5" />
+        <cell alignY="beginning" gridX="3" gridY="5" />
+        <cell alignY="beginning" gridX="0" gridY="6" />
+        <cell alignY="beginning" gridX="1" gridY="6" />
+        <cell alignY="beginning" gridX="2" gridY="6" />
+        <cell alignY="beginning" gridX="3" gridY="6" />
+        <cell alignY="beginning" gridX="0" gridY="7" />
+        <cell alignY="beginning" gridX="1" gridY="7" />
+        <cell alignY="beginning" gridX="2" gridY="7" />
+        <cell alignY="beginning" gridX="3" gridY="7" />
+        <cell alignY="beginning" gridX="0" gridY="8" />
+        <cell alignY="beginning" gridX="1" gridY="8" />
+        <cell alignY="beginning" gridX="2" gridY="8" />
+        <cell alignY="beginning" gridX="3" gridY="8" />
+        <cell alignY="beginning" gridX="0" gridY="9" />
+        <cell alignY="beginning" gridX="1" gridY="9" />
+        <cell alignY="beginning" gridX="2" gridY="9" />
+        <cell alignY="beginning" gridX="3" gridY="9" />
+       </layout.grid>
+      </pane.notebook>
+     </layout.notebook>
+    </pane.split>
+    <pane.split>
+     <table>
+      <erpfield access="readOnly" msgId="spusage_owis_ftable_ysparttersatz" s3Name="1:ysparttersatz" />
+      <erpfield access="readOnly" msgId="spusage_owis_ftable_ysparttname" s3Name="1:ysparttname" />
+      <erpfield access="readOnly" msgId="spusage_owis_ftable_ysparttartikel" s3Name="1:ysparttartikel" />
+      <erpfield access="readOnly" msgId="spusage_owis_ftable_ysparttletztverw" s3Name="1:ysparttletztverw" />
+      <erpfield access="readOnly" msgId="spusage_owis_ftable_ysparttletztverwgr" s3Name="1:ysparttletztverwgr" />
+      <erpfield access="readOnly" msgId="spusage_owis_ftable_ysparttverwneu" s3Name="1:ysparttverwneu" />
+      <erpfield access="readOnly" msgId="spusage_owis_ftable_ysparttgrundneu" s3Name="1:ysparttgrundneu" />
+      <erpfield dimX="0" msgId="spusage_owis_ftable_yspartterfverw" s3Name="1:yspartterfverw" />
+     </table>
+    </pane.split>
+   </layout.split>
+  </cell>
+ </layout.grid>
+</frame>
+

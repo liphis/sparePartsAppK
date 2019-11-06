@@ -1,0 +1,6 @@
+main=screen_OWIS.SPUSAGE_M.xml
+table=screen_OWIS.SPUSAGE_T.xml
+lay=
+frame.screenId=
+frame.prio=
+frame.name=SPUSAGE
