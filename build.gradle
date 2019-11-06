@@ -15,13 +15,13 @@ esdk {
 		appId = "spart"
 		shared = false
 		infosystems = []
-		tables = []
+		tables = ["ErsatzteileApp"]
 		screens = [:]
 		data = []
-		enums = ["Verwendungsgrund"]
+        enums = ["Verwendungsgrund"]
 		namedTypes = []
 		languages = "DAP"
-		essentialsVersions = [ "2018r4n00-2018r4n17" ]
+		essentialsVersions = [ "2017r4n00-2018r4n17" ]
 	}
 
 	abas {
@@ -49,7 +49,6 @@ esdk {
 		user = SSH_USER
 		password = SSH_PASSWORD
 		key = SSH_KEY
-		timeout = 50000
 	}
 	installType = "SSH"
 }
