@@ -1,13 +1,57 @@
 [
   {
-    "databaseName": "(Customer)",
-    "groupName": "(Customer)",
+    "databaseName": "ErsatzteileApp",
+    "groupName": "Konfiguration",
     "editorMode": "*",
-    "event": "feldpruef",
+    "event": "maskein",
     "key": "*",
-    "field": "plz",
+    "field": "",
     "headOrTable": "K",
     "isContinue": "[C]",
-    "handler": "java:de.abas.custom.owsp.spart.ZipCodeEventHandler@spart"
+    "handler": "java:de.abas.esdk.spart.kofiguration.ConfigurationScreenHandler@spart"
+  },
+  {
+    "databaseName": "ErsatzteileApp",
+    "groupName": "Ersatzteil",
+    "editorMode": "*",
+    "event": "maskein",
+    "key": "*",
+    "field": "",
+    "headOrTable": "K",
+    "isContinue": "[C]",
+    "handler": "java:de.abas.esdk.spart.ersatzteile.ErsatzteilEventHandler@spart"
+  },
+  {
+    "databaseName": "Teil",
+    "groupName": "Artikel",
+    "editorMode": "*",
+    "event": "maskein",
+    "key": "*",
+    "field": "",
+    "headOrTable": "K",
+    "isContinue": "[C]",
+    "handler": "java:de.abas.esdk.spart.part.ProductEventHandler@spart"
+  },
+  {
+    "databaseName": "Teil",
+    "groupName": "Artikel",
+    "editorMode": "*",
+    "event": "buttonnach",
+    "key": "*",
+    "field": "ysparterzatzteil",
+    "headOrTable": "K",
+    "isContinue": "[C]",
+    "handler": "java:de.abas.esdk.spart.part.ProductEventHandler@spart"
+  },
+  {
+    "databaseName": "Teil",
+    "groupName": "Artikel",
+    "editorMode": "*",
+    "event": "buttonvor",
+    "key": "*",
+    "field": "ysparterzatzteil",
+    "headOrTable": "K",
+    "isContinue": "[C]",
+    "handler": "java:de.abas.esdk.spart.part.ProductEventHandler@spart"
   }
 ]

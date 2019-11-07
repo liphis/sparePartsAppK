@@ -4546,6 +4546,46 @@
                 <value key="de" value="Artikelakte"/>
               </label>
             </notebookPanes>
+            <notebookPanes>
+              <elements xsi:type="core:GridLayout">
+                <cells alignmentY="center">
+                  <elements xsi:type="core:Button">
+                    <variable englishName="ysparterzatzteil" name="ysparterzatzteil" type="BU3" description="" width="1" screenProtection="zeigen änderbar" writeable="true" skip="true" custom="true" meaning="Erzatzteil anlegen" changePriority="A" viewPriority="A" primaryName="ysparterzatzteil"/>
+                    <label viewLanguage="de" key="e07f2e30-e383-42d3-b5b0-a5fd0dfd10b3">
+                      <value key="de" value="Erzatzteil anlegen"/>
+                    </label>
+                  </elements>
+                </cells>
+                <cells column="1" alignmentY="center"/>
+                <cells column="2" alignmentY="center"/>
+                <cells column="3" alignmentY="center"/>
+                <cells row="1" alignmentY="center">
+                  <elements xsi:type="core:Label">
+                    <label viewLanguage="de" key="860c1b65-a6af-413d-8422-d47ccdb07696">
+                      <value key="de" value="Ersatzteil"/>
+                    </label>
+                  </elements>
+                </cells>
+                <cells column="1" row="1" alignmentY="center">
+                  <elements xsi:type="core:ReferenceInput" dimX="16" dimY="1">
+                    <variable englishName="yspartersatzteil" name="yspartersatzteil" type="P15:1" guiType="REFERENCE" description="" width="16" screenProtection="änderbar" writeable="true" skip="true" custom="true" meaning="Ersatzteil" changePriority="A" viewPriority="A" primaryName="yspartersatzteil"/>
+                  </elements>
+                </cells>
+                <cells column="2" row="1" alignmentY="center"/>
+                <cells column="3" row="1" alignmentY="center"/>
+                <cells row="2" alignmentY="center"/>
+                <cells column="1" row="2" alignmentY="center"/>
+                <cells column="2" row="2" alignmentY="center"/>
+                <cells column="3" row="2" alignmentY="center"/>
+                <cells row="3" alignmentY="center"/>
+                <cells column="1" row="3" alignmentY="center"/>
+                <cells column="2" row="3" alignmentY="center"/>
+                <cells column="3" row="3" alignmentY="center"/>
+              </elements>
+              <label viewLanguage="de" key="16ed5771-575b-4cb1-8804-15b06284fdb4">
+                <value key="de" value="Ersatzteile"/>
+              </label>
+            </notebookPanes>
           </elements>
         </cells>
         <metaInfo axis="column" stretch="zoom"/>
@@ -9217,6 +9257,8 @@
     <entries englishName="yanalyzerbi" name="yanalyzerbi" type="URL2" guiType="BROWSER" description="" width="2999" screenProtection="änderbar" writeable="true" skip="true" custom="true" meaning="Bericht abas BI" changePriority="A" viewPriority="A" primaryName="yanalyzerbi"/>
     <entries englishName="yselexport" name="yselexport" type="NT100" guiType="INPUT" description="" width="100" screenProtection="änderbar" writeable="true" custom="true" meaning="Selektion f´┐¢r Datenexport" changePriority="A" viewPriority="A" primaryName="yselexport"/>
     <entries englishName="ysparterzatzteil" name="ysparterzatzteil" type="BU3" description="" width="1" screenProtection="zeigen änderbar" writeable="true" skip="true" custom="true" meaning="Erzatzteil anlegen" changePriority="A" viewPriority="A" primaryName="ysparterzatzteil"/>
+    <entries englishName="yspartersatzteil" name="yspartersatzteil" type="P15:1" guiType="REFERENCE" description="" width="16" screenProtection="änderbar" writeable="true" skip="true" custom="true" meaning="Ersatzteil" changePriority="A" viewPriority="A" primaryName="yspartersatzteil"/>
+    <entries englishName="yspartersatzteiltx" name="yspartersatzteiltx" type="GL15" guiType="INPUT" description="" width="15" screenProtection="änderbar" writeable="true" custom="true" meaning="Ersatzteil ID" changePriority="A" viewPriority="A" primaryName="yspartersatzteiltx"/>
     <entries englishName="rowIdNo" name="tabnr" type="TZN" guiType="INPUT" description="" tableEntry="true" width="5" screenProtection="immer geschützt" meaning="Zeilen-ID" changePriority="A" viewPriority="A" primaryName="tabnr"/>
     <entries englishName="rowId" name="zid" type="IDZ2:1" guiType="REFERENCE" description="" tableEntry="true" width="30" screenProtection="immer geschützt" skip="true" meaning="Zeilen-ID" changePriority="A" viewPriority="A" primaryName="zid"/>
     <entries englishName="rowNo" name="zn" type="I5" guiType="INTEGER" description="" tableEntry="true" width="5" screenProtection="immer geschützt" skip="true" meaning="Laufende Zeilennummer" changePriority="A" viewPriority="A" primaryName="zn"/>
