@@ -48,6 +48,7 @@ public class ConfigurationScreenHandler {
 
             konfigurationEditor.setYspartdbkommando(selectVartab.get(0).getDBCmd());
 
+
 //            yspartdbkommando
 //            yspartdbnummer
 //            yspartdbname
