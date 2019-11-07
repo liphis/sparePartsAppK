@@ -8,6 +8,7 @@ import de.abas.erp.axi2.annotation.EventHandler;
 import de.abas.erp.axi2.annotation.ScreenEventHandler;
 import de.abas.erp.axi2.event.ScreenEvent;
 import de.abas.erp.axi2.type.ScreenEventType;
+import de.abas.erp.common.type.enums.EnumDatabase;
 import de.abas.erp.common.type.enums.EnumEditorAction;
 import de.abas.erp.db.DbContext;
 import de.abas.erp.db.Query;
@@ -37,22 +38,20 @@ public class ConfigurationScreenHandler {
     @ScreenEventHandler(type = ScreenEventType.ENTER)
     public void screenEnter(ScreenEvent event, ScreenControl screenControl,
                             DbContext ctx, KonfigurationEditor konfigurationEditor) throws EventException {
-        new TextBox(ctx, "dumm", "msg").show();
         // checks whether screen is in edit mode
-        if (event.getCommand() == EnumEditorAction.Edit) {
-            konfigurationEditor.setYspartdbnummer(konfigurationEditor.getDBNo().toString());
-            konfigurationEditor.setYspartdbname(konfigurationEditor.getDBDescr());
+//        if (event.getCommand() == EnumEditorAction.Edit) {
+        konfigurationEditor.setYspartdbnummer(getDatabaseNumberAsString(konfigurationEditor.getDBNo()));
+        konfigurationEditor.setYspartdbname(konfigurationEditor.getDBDescr());
+        String msg = konfigurationEditor.getDBNo().getDisplayString();
 
-            String vartabSearchWord = "V-" + konfigurationEditor.getDBNo().toString() + "-00";
-            List<Vartab> selectVartab = getSelectList(Vartab.class, "swd", vartabSearchWord, ctx);
+        String vartabSearchWord = "V-" + getDatabaseNumberAsString(konfigurationEditor.getDBNo()) + "-00";
+        List<Vartab> selectVartab = getSelectList(Vartab.class, "swd", vartabSearchWord, ctx);
 
-            konfigurationEditor.setYspartdbkommando(selectVartab.get(0).getDBCmd());
+        konfigurationEditor.setYspartdbkommando(selectVartab.get(0).getDBCmd());
+    }
 
-
-//            yspartdbkommando
-//            yspartdbnummer
-//            yspartdbname
-        }
+    private String getDatabaseNumberAsString(EnumDatabase dbNoDb) {
+        return dbNoDb.toString().replace("(", "").replace(")", "");
     }
 
     private <C extends SelectableObject> List<C> getSelectList(Class<C> type, String field, String value,
