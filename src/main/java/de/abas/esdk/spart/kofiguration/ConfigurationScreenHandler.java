@@ -8,6 +8,7 @@ import de.abas.erp.axi2.annotation.EventHandler;
 import de.abas.erp.axi2.annotation.ScreenEventHandler;
 import de.abas.erp.axi2.event.ScreenEvent;
 import de.abas.erp.axi2.type.ScreenEventType;
+import de.abas.erp.common.type.enums.EnumDatabase;
 import de.abas.erp.common.type.enums.EnumEditorAction;
 import de.abas.erp.db.DbContext;
 import de.abas.erp.db.Query;
@@ -47,7 +48,6 @@ public class ConfigurationScreenHandler {
             List<Vartab> selectVartab = getSelectList(Vartab.class, "swd", vartabSearchWord, ctx);
 
             konfigurationEditor.setYspartdbkommando(selectVartab.get(0).getDBCmd());
-
 
 //            yspartdbkommando
 //            yspartdbnummer
