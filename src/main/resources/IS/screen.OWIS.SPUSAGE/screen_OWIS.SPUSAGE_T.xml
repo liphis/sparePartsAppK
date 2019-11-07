@@ -44,13 +44,13 @@
        <label msgId="spusage_owis_ftable_ysparttverwneu" />
       </cell>
       <cell alignY="beginning" gridX="3" gridY="2">
-       <erpfield access="readOnly" s3Name="1:ysparttverwneu" />
+       <erpfield s3Name="1:ysparttverwneu" />
       </cell>
       <cell alignY="beginning" gridX="0" gridY="3">
        <label msgId="spusage_owis_ftable_ysparttgrundneu" />
       </cell>
       <cell alignY="beginning" gridX="1" gridY="3">
-       <erpfield access="readOnly" s3Name="1:ysparttgrundneu" />
+       <erpfield s3Name="1:ysparttgrundneu" />
       </cell>
       <cell alignY="beginning" gridX="2" gridY="3" />
       <cell alignY="beginning" gridX="3" gridY="3">

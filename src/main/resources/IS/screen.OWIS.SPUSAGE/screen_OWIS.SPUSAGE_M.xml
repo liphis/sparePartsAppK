@@ -83,8 +83,8 @@
       <erpfield access="readOnly" msgId="spusage_owis_ftable_ysparttartikel" s3Name="1:ysparttartikel" />
       <erpfield access="readOnly" msgId="spusage_owis_ftable_ysparttletztverw" s3Name="1:ysparttletztverw" />
       <erpfield access="readOnly" msgId="spusage_owis_ftable_ysparttletztverwgr" s3Name="1:ysparttletztverwgr" />
-      <erpfield access="readOnly" msgId="spusage_owis_ftable_ysparttverwneu" s3Name="1:ysparttverwneu" />
-      <erpfield access="readOnly" msgId="spusage_owis_ftable_ysparttgrundneu" s3Name="1:ysparttgrundneu" />
+      <erpfield msgId="spusage_owis_ftable_ysparttverwneu" s3Name="1:ysparttverwneu" />
+      <erpfield msgId="spusage_owis_ftable_ysparttgrundneu" s3Name="1:ysparttgrundneu" />
       <erpfield dimX="0" msgId="spusage_owis_ftable_yspartterfverw" s3Name="1:yspartterfverw" />
      </table>
     </pane.split>
