@@ -1,13 +1,24 @@
 [
   {
-    "databaseName": "(Customer)",
-    "groupName": "(Customer)",
+    "databaseName": "ErsatzteileApp",
+    "groupName": "Konfiguration",
     "editorMode": "*",
-    "event": "feldpruef",
+    "event": "maskein",
     "key": "*",
-    "field": "plz",
+    "field": "",
     "headOrTable": "K",
     "isContinue": "[C]",
-    "handler": "java:de.abas.custom.owsp.spart.ZipCodeEventHandler@spart"
+    "handler": "java:de.abas.esdk.spart.kofiguration.ConfigurationScreenHandler@spart"
+  },
+  {
+    "databaseName": "ErsatzteileApp",
+    "groupName": "Ersatzteil",
+    "editorMode": "*",
+    "event": "maskein",
+    "key": "*",
+    "field": "",
+    "headOrTable": "K",
+    "isContinue": "[C]",
+    "handler": "java:de.abas.esdk.spart.ersatzteile.ErsatzteilEventHandler@spart"
   }
 ]
