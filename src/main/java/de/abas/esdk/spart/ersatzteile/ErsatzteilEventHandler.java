@@ -44,11 +44,12 @@ public class ErsatzteilEventHandler {
 
             ScreenProtection screenProtection = new ScreenProtection(headerProtectedFields, tableProtectedFields);
             screenProtection.protectHeaderFields();
-            screenProtection.protectTableFields();
+            //Fields have to be modifiable
+            //screenProtection.protectTableFields();
         }
     }
 
-    private List <String> getHeaderFieldset(){
+    private List<String> getHeaderFieldset() {
         List<String> headerProtectedFields = new ArrayList<>();
         headerProtectedFields.add(Ersatzteil.META.idno.getName());
         headerProtectedFields.add(Ersatzteil.META.swd.getName());
